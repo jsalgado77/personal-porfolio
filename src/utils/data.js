@@ -48,7 +48,7 @@ export const PROJECTS = [
     title: "Currency Converter",
     date: "January 2022 - Present",
     thumbnail: "./assets/images/currencyConverter.jpg",
-    source: "currency-converter-i341sx7gl-jsalgado77s-projects.vercel.app",
+    source: "https://currency-converter-weld-psi.vercel.app/",
     description: "I developed a user-friendly web application that seamlessly converts currencies, leveraging a public API for real-time exchange rates. This intuitive tool offers swift conversions between all available currencies, providing users with instant access to accurate and up-to-date currency rates alongside clear currency labels for easy identification. Designed for efficiency and convenience, it ensures hassle-free currency conversions for users across the globe.", 
     stack: [
       "JavaScript",
@@ -60,7 +60,7 @@ export const PROJECTS = [
     title: "Responsive Informative Cite",
     date: "June 2020 - December 2021",
     thumbnail: "./assets/images/respCite.jpg",
-    source: "gpt3-cite-qi4xicuvv-jsalgado77s-projects.vercel.app",
+    source: "https://gpt3-cite.vercel.app/",
     description: "Crafted as an informative landing page for ChatGP3 AI, this project exemplifies my proficiency in React.js development and responsive design principles. Leveraging Figma designs as a foundation, I meticulously recreated the website into a dynamic React-based application, showcasing a seamless fusion of design and functionality. With meticulous attention to detail, I ensured a user-centric experience, embodying fundamental principles of modern web development.",
     stack: [
       "JavaScript",
@@ -73,7 +73,7 @@ export const PROJECTS = [
     title: "Theme Switcher Website",
     date: "May 2019 - August 2019",
     thumbnail: "./assets/images/themeSwitcher.jpg",
-    source: "theme-switcher-khn842bbp-jsalgado77s-projects.vercel.app",
+    source: "https://theme-switcher-beta.vercel.app/",
     description: "Crafted as a personal website, this project serves as a testament to my foundational expertise in vanilla CSS/HTML and JavaScript. Featuring a theme switcher functionality, users can seamlessly transition between light and dark themes, with an added option for a unique solarized theme. This project underscores my commitment to user experience and innovation, offering a dynamic and customizable browsing experience tailored to individual preferences.",
     stack: [
       "JavaScript",
