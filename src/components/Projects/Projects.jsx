@@ -35,7 +35,7 @@ const Projects = () => {
 
   return (
     <section id='proj-exp' className="project-container">
-      <h5>Projects</h5>
+      <h5>Personal Projects</h5>
 
       <div className="project-content">
         <div className="arrow-right" onClick={slideRight}>
