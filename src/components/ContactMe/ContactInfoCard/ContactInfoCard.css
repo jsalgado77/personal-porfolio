@@ -1,0 +1,40 @@
+.contact-details-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(24, 66, 69, 0.37);
+  border-radius: 0.65rem;
+  border: 1.5px solid #1a737c;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.contact-details-card .icon {
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  background: #255d6c;
+  margin-bottom: 0.8rem;
+}
+
+.icon img {
+  width: 1.8rem;
+  height: auto;
+  object-fit: contain;
+}
+
+.contact-details-card p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+@media (max-width: 400px) {
+  .contact-details-card p {
+    font-size: 0.8rem;
+  }
+}

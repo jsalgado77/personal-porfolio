@@ -1,0 +1,77 @@
+.project-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(24, 66, 69, 0.37);
+  border-radius: 0.65rem;
+  border: 1.5px solid #1a737c;
+  padding: 1.5rem;
+  margin: 0 1rem;
+}
+
+.project-card h6 {
+  font-size: 1.05rem;
+  font-weight: 500;
+  margin-bottom: 0.7rem;
+  text-align: center;
+}
+
+.project-image {
+  width: 100%; 
+  max-width: 300px; 
+  margin-bottom: 1rem; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  object-fit: cover;
+}
+
+.project-image:hover {
+  cursor: pointer;
+}
+
+.project-description {
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  max-width: 300px;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.project-stack-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 0.5rem; 
+}
+
+.project-stack {
+  display: inline-block; 
+  font-size: 0.7rem;
+  font-weight: 400;
+  background: rgba(37, 93, 108, 1);
+  border-radius: 0.3rem;
+  padding: 0.4rem 0.6rem;
+  margin-bottom: 1.3rem;
+}
+
+.project-stack:last-child {
+  margin-right: 0; 
+}
+
+
+@media (max-width: 768px) {
+  .project-card {
+    margin: 0;
+  }
+
+  .project-card h6 {
+    font-size: 0.95rem;
+  }
+
+  .project-card ul li {
+    font-size: 0.75rem;
+  }
+}
